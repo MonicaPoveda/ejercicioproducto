@@ -7,7 +7,8 @@ public class Pedido {
     private String cliente;
     private String telefono;
     private String correo;
-    private List<Productos> productos = new ArrayList<>();;
+    private List<Productos> productos = new ArrayList<>();
+
 
 
     public Pedido() {
@@ -61,9 +62,18 @@ public class Pedido {
                 ", productos=" + productos +
                 '}';
     }
+
     // Metodo para agregar producto
     public void agregarProducto(Productos producto) {
         this.productos.add(producto);
     }
+
+    //metodo inf de cliente
+    public String infocliente() {
+        return ("" + cliente + "     " + telefono + "      " + correo);
+
+
+    }
 }
+
 

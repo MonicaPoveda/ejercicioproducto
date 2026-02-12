@@ -46,6 +46,7 @@ public class Productos {
                 ", nombre='" + nombre + '\'' +
                 '}';
     }
+    
 }
 
 
